@@ -31,23 +31,47 @@ coll = conn[DATABASE][COLLECTION]
 #            "nationality": "british"
 # }
 
-new_docs = [{
-    "first": "terry",
-    "last": "pratchett",
-    "dob": "28/04/1948",
-    "gender": "m",
-    "hair_color": "not much",
-    "occupation": "writer",
-    "nationality": "british"
-}, {
-    "first": "george",
-    "last": "rr martin",
-    "dob": "20/09/1948",
-    "gender": "m",
-    "hair_color": "white",
-    "occupation": "writer",
-    "nationality": "american"
-}]
+# new_docs = [{
+#     "first": "john",
+#     "last": "lennon",
+#     "dob": "09/10/1940",
+#     "gender": "m",
+#     "hair_color": "brown",
+#     "occupation": "beatle",
+#     "nationality": "british"
+# }, {
+#     "first": "eve",
+#     "last": "ryan",
+#     "dob": "19/09/1992",
+#     "gender": "f",
+#     "hair_color": "pink",
+#     "occupation": "developer",
+#     "nationality": "irish"
+# }, {
+#     "first": "martha",
+#     "last": "fenton",
+#     "dob": "15/05/1974",
+#     "gender": "f",
+#     "hair_color": "brown",
+#     "occupation": "manager",
+#     "nationality": "irish"
+# }, {
+#     "first": "neil",
+#     "last": "hanslem",
+#     "dob": "14/07/1983",
+#     "gender": "m",
+#     "hair_color": "blonde",
+#     "occupation": "actor",
+#     "nationality": "british"
+# }, {
+#     "first": "rocky",
+#     "last": "persolm",
+#     "dob": "19/12/1994",
+#     "gender": "f",
+#     "hair_color": "black",
+#     "occupation": "activist",
+#     "nationality": "american"
+# }]
 
 # coll.insert_many(new_docs)
 
